@@ -1,5 +1,15 @@
 {
-    "rewrites": [
-      { "source": "/pincodes", "destination": "/api/pincodes" }
-    ]
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/pincodes.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/pincodes",
+      "dest": "/api/pincodes.js"
+    }
+  ]
+}
