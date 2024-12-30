@@ -2,7 +2,7 @@
   "name": "india-pincode-search",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/pincodes.js",
   "scripts": {
     "start": "node api/pincodes.js"
   },
